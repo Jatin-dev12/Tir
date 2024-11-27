@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Main from './main banner/Main'
 function App() {
   return (
-    <div>App</div>
-  )
+<Main/>
+ )
 }
 
 export default App

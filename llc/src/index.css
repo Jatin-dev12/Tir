@@ -6,8 +6,55 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.att {
+  background: #2E140D !important;
+  color: #FF7F32;
+  padding: 14px 26px !important;
+  box-shadow: 0px 0px 37px;
+}
+button{
+  /* font-family: switzer !important; */
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  padding: 20px 25px;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+
+main.bnerr {
+  background: black;
+  padding: 80px 0px;
+}
+button.chakra-button.css-1ocnt5x {
+  color: white;
+}
+h1,h2,h3,p {
+  color: white;
+
+}
+p{
+  font-size: 16px;
+}
+.css-0 {
+  width: 1440px;
+  margin: 0 auto;
+}
+section.main-baner h2 {
+  font-size: 56px;
+  line-height: 73px;
+  text-align: center;
+
+}
+section.main-baner p{
+  text-align: center;
+}
+span.lall {
+  color: #FF7F32;
+}
+.container.lower {
+  padding: 40px 0px;
+  margin: 0 auto;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
 }
