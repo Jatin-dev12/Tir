@@ -1,4 +1,5 @@
 import React from 'react'
+import Main from './main banner/Main'
 import Headers from './navbar/Headers'
 import Excellence from './excellence/Excellence'
 import Services from './services/Services'
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className='App'>
       <Headers />
+    <Main/>
       <Excellence />
       <Services />
       <WhatWeDo />
