@@ -6,6 +6,41 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+.navbar li {
+  font-size: 16px;       /* Set font size for list items */
+}
+
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+.section-5,
+.section-6,
+.section-7,
+.section-8,
+.navbar,
+.Faq {
+background-color: black;
+}
+/* nav */
+.lins ul {
+  display: flex;
+  gap: 5em;
+}
+
+.lins {
+  display: flex;
+  gap: 3em;
+  align-items: center;
+}
+
+
+
+
+
+
 .att {
   background: #2E140D !important;
   color: #FF7F32;
@@ -28,7 +63,7 @@ main.bnerr {
 button.chakra-button.css-1ocnt5x {
   color: white;
 }
-h1,h2,h3,p {
+h1,h2,h3,h4,h5,p {
   color: white;
 
 }
@@ -57,4 +92,36 @@ span.lall {
   width: 1440px;
   display: flex;
   justify-content: center;
+}
+
+section.section-2.exllence h2 {
+  font-size: 40px;
+  text-align: center;
+}
+section.section-2.exllence p {
+  text-align: center;
+  }
+  .items {
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    padding: 20px;
+    background: #1B1B1B;
+    border-radius: 8px;
+    height: 335px;
+   transition: .3s all ease;
+    width: 560px;
+}
+
+.inner-itmes {
+  align-content: end;
+  padding-bottom: 15px;
+}
+
+.items h5 {
+  font-size: 24px;
+  padding-bottom: 0.7em;
+}
+.inner-itmes p{
+  text-align: unset !important;
 }
