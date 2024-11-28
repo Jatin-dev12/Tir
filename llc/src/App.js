@@ -5,6 +5,7 @@ import Excellence from './excellence/Excellence'
 import Services from './services/Services'
 import WhatWeDo from './whatwedo/WhatWeDo'
 import WhyUs from './whyus/WhyUs'
+import Faq from './faq/Faq'
 
 function App() {
   return (
@@ -12,9 +13,10 @@ function App() {
       <Headers />
     <Main/>
       <Excellence />
-      <Services />
+      <Faq />
+      {/* <Services />
       <WhatWeDo />
-      <WhyUs />
+      <WhyUs /> */}
     </div>
   )
 }
