@@ -210,3 +210,77 @@ section.whtwedo {
 .why.tb h5 {
   padding: 26px 48px 30px 48px;
 }
+
+.Faq{
+  padding: 50px 0px;
+}
+
+.Faq .f-box h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.Faq .f-box p {
+  text-align: center;
+  }
+
+  .accordins {
+    width: 1000px;
+}
+
+.accordins .chakra-accordion__item {
+  margin: 25px 0px;
+padding: 20px;
+  background: #1B1B1B;
+  transition: .2s all ease;
+
+  border: solid 1px #ffffff20;
+  border-radius: 8px;
+}
+.accordins .chakra-accordion__item:hover{
+  border: solid 1px #B7B7B7;
+}
+
+
+
+.chakra-accordion__itemContent {
+  color: #B7B7B7;
+  margin-top: 1em;
+
+}
+
+.chakra-stack p {
+  font-size: 22px;
+  color: #B7B7B7;
+  transition: .2s all ease;
+
+}
+.accordins button{
+  padding: 0;
+}
+
+[data-state="open"] .text-active {
+  color: #FF7F32; /* Change the color to your desired value */
+}
+[data-state="open"] .accordion-arrow {
+  transform: rotate(180deg); /* Arrow points up when open */
+}
+
+.accordion-arrow {
+  transition: transform 0.2s ease; /* Smooth rotation animation */
+}
+
+.accordins .accordion-arrow svg {
+  fill: white;
+  font-size: 32px;
+}
+.accordins button {
+
+  justify-content: space-between;
+}
+.accordins .chakra-stack.css-44c6y4 {
+  display: contents;
+
+}
+.accordins p.text-active.css-0 {
+  margin: 0;
+}
