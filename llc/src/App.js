@@ -6,6 +6,9 @@ import Services from './services/Services'
 import WhatWeDo from './whatwedo/WhatWeDo'
 import WhyUs from './whyus/WhyUs'
 import Faq from './faq/Faq'
+import Cta from './cta/Cta'
+import Footer from './footer/Footer'
+import "@fontsource/poppins";
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
       <WhatWeDo />
       <WhyUs/>
     <Faq />
+    <Cta/>
+    <Footer/>
+
     </div>
   )
 }
