@@ -14,14 +14,10 @@ body {
 
 .section-1,
 .section-2,
-.section-3,
-.section-4,
-.section-5,
-.section-6,
-.section-7,
-.section-8,
+.our-ser,
 .navbar,
-.Faq {
+.Faq,
+.whtwedo {
 background-color: black;
 }
 /* nav */
@@ -35,11 +31,9 @@ background-color: black;
   gap: 3em;
   align-items: center;
 }
-
-
-
-
-
+button.chakra-button.css-1ocnt5x:HOVER {
+  COLOR: BLACK;
+}
 
 .att {
   background: #2E140D !important;
@@ -71,7 +65,6 @@ p{
   font-size: 16px;
 }
 .css-0 {
-  width: 1440px;
   margin: 0 auto;
 }
 section.main-baner h2 {
@@ -109,19 +102,111 @@ section.section-2.exllence p {
     background: #1B1B1B;
     border-radius: 8px;
     height: 335px;
-   transition: .3s all ease;
     width: 560px;
+    border: solid 1px #ffffff20;
+    transition: .2s all ease;
 }
-
+.items:hover {
+  border-color: #B7B7B7;
+  background: #b7b7b736;
+}
 .inner-itmes {
   align-content: end;
   padding-bottom: 15px;
 }
-
+.inner-itmes img {
+  border: solid 1px #B7B7B7;
+  border-radius: 50px;
+}
 .items h5 {
   font-size: 24px;
   padding-bottom: 0.7em;
 }
 .inner-itmes p{
   text-align: unset !important;
+}
+.LAST button.chakra-button.att.css-kcj133 {
+  POSITION: RELATIVE;
+  RIGHT: 100%;
+}
+
+
+.our-ser{
+  padding: 50px 10px;
+  background-image: url(./services/ser-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.our-ser .f-box h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.our-ser .f-box p {
+  text-align: center;
+  }
+
+  .tb{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    background: #1B1B1B;
+    border-radius: 8px;
+    flex-direction: column;
+    border: solid 2px #ffffff20;
+    transition: .2s all ease;
+    filter: brightness(1);
+    height: 470px;
+    width: 470px;
+
+
+
+  }
+
+  .tb:hover{
+    border-color: #B7B7B7;
+
+  }
+  .tb:hover .broder{
+    border-color: #B7B7B7;
+
+  }
+  .tb:hover h5{
+    color: #FF7F32;
+
+  }
+
+  .tb h5{
+font-size: 24px;
+padding: 25px;
+transition: .2s all ease;
+
+  }
+
+  .broder {
+    border-top: solid 2px #ffffff20;
+    padding: 25px;
+    transition: .2s all ease;
+
+
+}
+
+.t-box:nth-child(2) {
+  padding: 25px;
+  padding-bottom: 32px;
+}
+
+section.whtwedo {
+  padding: 50px 0px;
+
+}
+.why {
+  width: 400px;
+  height: auto;
+}
+.why .broder {
+  padding: 26px 48px 40px 48px;
+}
+.why.tb h5 {
+  padding: 26px 48px 30px 48px;
 }

@@ -13,10 +13,12 @@ function App() {
       <Headers />
     <Main/>
       <Excellence />
-      <Faq />
-      {/* <Services />
+
+    <Services />
+
       <WhatWeDo />
-      <WhyUs /> */}
+      <WhyUs/>
+    <Faq />
     </div>
   )
 }

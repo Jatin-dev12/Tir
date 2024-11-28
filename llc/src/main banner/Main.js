@@ -15,9 +15,7 @@ function Main() {
         <div className="flt-btn sec">
           <Button className="att">Attribute</Button>
         </div>
-          <div className="flt-btn sec">
-          <Button className="att">Attribute</Button>
-        </div>
+
         </Flex>
 
 <Box>
@@ -28,7 +26,9 @@ function Main() {
 <Box >
 
           <Flex gap={5} align="center" justify="center" p={10} >
-
+          <div className="flt-btn LAST">
+          <Button className="att">Attribute</Button>
+        </div>
             <div className="col-md-6 align-bottom">
               <div>
                 <Button colorPalette={"orange"}>Start Today</Button>
@@ -41,6 +41,7 @@ function Main() {
                 </Button>
               </div>
             </div>
+
           </Flex>
 
           </Box>

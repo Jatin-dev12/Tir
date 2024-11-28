@@ -11,7 +11,8 @@ const Excellence = () => {
           Sphere of Excellence
         </Heading>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Id mattis placerat congue nam<br />
+          Lorem ipsum dolor sit amet consectetur. Id mattis placerat congue nam
+          <br />
           Enim nunc vulputate in nunc risus aliquet mattis quisque.
         </p>
       </Box>
@@ -20,7 +21,9 @@ const Excellence = () => {
           <div className="inner-itmes">
             <h5>Technology</h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Id<br /> mattis placerat conguenam. Enim nunc <br />vulputate in nunc risus aliquet mattis quisque.
+              Lorem ipsum dolor sit amet consectetur. Id
+              <br /> mattis placerat conguenam. Enim nunc <br />
+              vulputate in nunc risus aliquet mattis quisque.
             </p>
           </div>
 
@@ -30,10 +33,11 @@ const Excellence = () => {
         </div>
         <div className="items">
           <div className="inner-itmes">
-
             <h5>Strategy & Business Development</h5>
             <p>
-            Lorem ipsum dolor sit amet consectetur.<br /> Id mattis placerat congue nam. Enim nunc<br /> vulputate in nunc risus aliquet mattis.
+              Lorem ipsum dolor sit amet consectetur.
+              <br /> Id mattis placerat congue nam. Enim nunc
+              <br /> vulputate in nunc risus aliquet mattis.
             </p>
           </div>
 
@@ -42,12 +46,20 @@ const Excellence = () => {
           </div>
         </div>
       </Flex>
-      <Flex align="bottom" gap={5} p={2} justifyContent={"center"} >
+      <Flex
+        align="bottom"
+        gap={5}
+        p={2}
+        justifyContent={"center"}
+
+      >
         <div className="items">
           <div className="inner-itmes">
-            <h5>Technology</h5>
+            <h5>Finance</h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Id<br /> mattis placerat conguenam. Enim nunc <br />vulputate in nunc risus aliquet mattis quisque.
+              Lorem ipsum dolor sit amet consectetur. Id
+              <br /> mattis placerat conguenam. Enim nunc <br />
+              vulputate in nunc risus aliquet mattis quisque.
             </p>
           </div>
 
@@ -57,10 +69,11 @@ const Excellence = () => {
         </div>
         <div className="items">
           <div className="inner-itmes">
-
-            <h5>Strategy & Business Development</h5>
+            <h5>Compliance</h5>
             <p>
-            Lorem ipsum dolor sit amet consectetur.<br /> Id mattis placerat congue nam. Enim nunc<br /> vulputate in nunc risus aliquet mattis.
+              Lorem ipsum dolor sit amet consectetur.
+              <br /> Id mattis placerat congue nam. Enim nunc
+              <br /> vulputate in nunc risus aliquet mattis.
             </p>
           </div>
 
