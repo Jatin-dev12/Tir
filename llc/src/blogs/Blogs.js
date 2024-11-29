@@ -3,8 +3,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import images from './image 125.png' 
-import arrow from './Frame (2).png' 
+import images from './image 125.png'
+import arrow from './Frame (2).png'
 import { Button } from '@chakra-ui/react';
 import { MdKeyboardArrowRight } from 'react-icons/md';
 const blogs = [
@@ -26,13 +26,13 @@ const Blogs = () => {
   return (
     <section className='blogs'>
       <Swiper
-        spaceBetween={150} 
+        spaceBetween={150}
         // slidesPerView={'auto'}
         slidesPerView={4}
         loop={true}
-        grabCursor={true} 
-        centeredSlides={true} 
-        pagination={{ clickable: true }} 
+        grabCursor={true}
+        centeredSlides={true}
+        pagination={{ clickable: true }}
         style={{ overflow: 'hidden' }}
       >
         {blogs.map((blog) => (

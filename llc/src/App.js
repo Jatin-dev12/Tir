@@ -21,6 +21,7 @@ function App() {
       <WhatWeDo />
       <WhyUs/>
     <Faq />
+    <Blogs/>
     <Cta/>
     <Footer/>
 

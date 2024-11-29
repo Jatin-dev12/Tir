@@ -406,8 +406,14 @@ section.footer {
   text-align: center;
   padding-bottom: 40px;
 }
+.lins li:hover {
+  color: #FF7F32 !important;
+  cursor: pointer;
+}
 
-
-
-
-
+.below-content h3 {
+  font-size: 20px;
+}
+.below-content p {
+  font-size: 14px;
+}
