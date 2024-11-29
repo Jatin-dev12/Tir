@@ -10,7 +10,7 @@ function Main() {
 
         <Flex align="center" justify="space-around" gap={10} className="flting-btn">
         <div className="flt-btn">
-          <Button className="att">Attribute</Button>
+          <Button className="att f">Attribute</Button>
         </div>
         <div className="flt-btn sec">
           <Button className="att">Attribute</Button>
