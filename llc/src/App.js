@@ -9,6 +9,7 @@ import Faq from './faq/Faq'
 import Cta from './cta/Cta'
 import Footer from './footer/Footer'
 import "@fontsource/poppins";
+import Blogs from './blogs/Blogs'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <WhatWeDo />
       <WhyUs/>
     <Faq />
+    <Blogs />
     <Cta/>
     <Footer/>
 
