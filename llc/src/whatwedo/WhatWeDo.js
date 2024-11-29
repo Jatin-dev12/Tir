@@ -1,17 +1,17 @@
 import React from 'react';
 import { Box, Text, Heading, Flex } from '@chakra-ui/react';
+import video from './18947687-hd_1280_720_30fps.mp4'
 
 const WhatWeDo = () => {
   return (
     <Box position="relative" height="100vh" width="100%">
-      {/* Full background video */}
       <video
         autoPlay
         loop
         muted
         style={{
           position: 'absolute',
-          top: 0,
+          top: 0, 
           left: 0,
           width: '100%',
           height: '100%',
@@ -19,14 +19,12 @@ const WhatWeDo = () => {
           zIndex: -1,
         }}
       >
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+        <source src={video} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-
-      {/* Content centered over the video */}
       <Flex
         direction="column"
-        justify="flex-start"  // Aligns content to the top
+        justify="flex-start" 
         align="center"
         height="100%"
         textAlign="center"

@@ -6,6 +6,7 @@ import Services from './services/Services'
 import WhatWeDo from './whatwedo/WhatWeDo'
 import WhyUs from './whyus/WhyUs'
 import Faq from './faq/Faq'
+import Blogs from './blogs/Blogs'
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <Headers />
     <Main/>
       <Excellence />
+      <WhatWeDo />
+      <Blogs />
       <Faq />
       {/* <Services />
       <WhatWeDo />
