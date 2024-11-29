@@ -9,6 +9,7 @@ import Faq from "./faq/Faq";
 import Cta from "./cta/Cta";
 import Footer from "./footer/Footer";
 import "@fontsource/poppins";
+import Blogs from './blogs/Blogs'
 
 function App() {
   return (
@@ -18,10 +19,11 @@ function App() {
       <Excellence />
       <Services />
       <WhatWeDo />
-      <WhyUs />
-      <Faq />
-      <Cta />
-      <Footer />
+      <WhyUs/>
+    <Faq />
+    <Cta/>
+    <Footer/>
+
     </div>
   );
 }

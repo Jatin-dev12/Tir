@@ -294,7 +294,7 @@ padding: 20px;
 width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding: 3rem 1rem;
+  padding: 34px;
 }
 
 .contact-intro > * + * {
@@ -313,7 +313,7 @@ width: 100%;
 
 .form-group-container {
   display: grid;
-  gap: 1rem;
+  gap: 1.5em;
   margin-top: 2rem;
 }
 
@@ -406,3 +406,8 @@ section.footer {
   text-align: center;
   padding-bottom: 40px;
 }
+
+
+
+
+
