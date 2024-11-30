@@ -375,7 +375,11 @@ width: 100%;
   transition: .2s all ease;
 }
 .logos img:hover{
-  transform: scale(1.05);
+  transform: scale(1.08);
+  border-color: white;
+}
+.social img:hover{
+  transform: scale(1.1);
 }
 .txt h5 {
   font-size: 24px;
@@ -416,4 +420,17 @@ section.footer {
 }
 .below-content p {
   font-size: 14px;
+}
+.blogs h2.chakra-heading.css-1dqmyqn {
+  font-size: 40px;
+  /* text-align: center; */
+}
+.form-input, .form-textarea, select {
+
+  color: white;
+}
+
+.cta .css-17vudbb {
+  align-items: center;
+  display: flex;
 }

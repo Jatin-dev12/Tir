@@ -5,7 +5,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import images from './image 125.png'
 import arrow from './Frame (2).png'
-import { Button } from '@chakra-ui/react';
+import { Button,Flex,Box ,Heading} from '@chakra-ui/react';
 import { MdKeyboardArrowRight } from 'react-icons/md';
 const blogs = [
   { id: 1, title: "How to Learn React", description: "A beginner's guide to learning React." },
@@ -25,6 +25,16 @@ const Blogs = () => {
 
   return (
     <section className='blogs'>
+        <Box textAlign={'center'} p={12}>
+        <Heading padding={10} colorPalette="white">
+          Blogs
+        </Heading>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Id mattis placerat congue nam
+          <br />
+          Enim nunc vulputate in nunc risus aliquet mattis quisque.
+        </p>
+      </Box>
       <Swiper
         spaceBetween={150}
         // slidesPerView={'auto'}
@@ -64,17 +74,16 @@ const Blogs = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <Button
+      <Flex align="center" justify="center" p={10} >
+      <Button  variant="outline"
                 style={{
-                  border: '1px solid #007BFF',
                   padding: '10px 15px',
                   borderRadius: '5px',
-                  cursor: 'pointer',
                   transition: 'all 0.3s ease',
                 }}
               >
-                Read Full Article
-              </Button>
+                Read Full Article<MdKeyboardArrowRight />
+              </Button></Flex>
     </section>
   );
 };

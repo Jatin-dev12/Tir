@@ -137,6 +137,8 @@ import fac from '../cta/fac.png';
 import lin from '../cta/link.png';
 import ig from '../cta/ig.png';
 import twi from '../cta/twi.png';
+import { Button } from '@chakra-ui/react';
+
 
 function Cta() {
   return (
@@ -153,8 +155,9 @@ function Cta() {
             <div>
               <h5>Location</h5>
               <p>
-                2208B, Business Central Towers, 22nd Floor, P.O. Box 449769,
-                Sheikh Zayed Road, Dubai, United Arab Emirates
+                2208B, Business Central Towers, 22nd<br />
+                Floor, P.O. Box 449769,Sheikh Zayed Road,<br />
+                 Dubai, United Arab Emirates
               </p>
             </div>
             <div>
@@ -267,9 +270,9 @@ function Cta() {
                         ></textarea>
                       </div>
                       <div className="form-group" >
-                        <button className="form-submit" type="submit">
+                        <Button className="form-submit" type="submit">
                         Submit
-                        </button>
+                        </Button>
                       </div>
                     </div>
                   </div>
