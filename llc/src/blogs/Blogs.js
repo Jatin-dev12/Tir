@@ -1,56 +1,82 @@
-// Import React and Swiper
-import React from 'react';
+import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css'; // Importing Swiper's CSS
-import 'swiper/css/pagination'; // For pagination styles
-import 'swiper/css/navigation'; // For navigation styles
-// Import the icon you want to use
-import { FaBeer } from 'react-icons/fa'; // Example icon (replace with the one you need)
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import images from './image 125.png' 
+import arrow from './Frame (2).png' 
+import { Button } from '@chakra-ui/react';
+import { MdKeyboardArrowRight } from 'react-icons/md';
+const blogs = [
+  { id: 1, title: "How to Learn React", description: "A beginner's guide to learning React." },
+  { id: 2, title: "JavaScript ES6 Features", description: "Learn about the new features in ES6." },
+  { id: 3, title: "Understanding Redux", description: "An overview of how Redux works with React." },
+  { id: 4, title: "CSS Grid Layout", description: "Mastering CSS Grid for modern layouts." },
+  { id: 5, title: "State Management in React", description: "A deep dive into state management with React." },
+  { id: 6, title: "State Management in React", description: "A deep dive into state management with React." },
+];
 
-const SwiperSlider = () => {
+const Blogs = () => {
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  const handleButtonClick = (blogId) => {
+    setActiveIndex(blogId);
+  };
+
   return (
-    <section className="swiper-section">
+    <section className='blogs'>
       <Swiper
-        spaceBetween={50} // Space between slides
-        slidesPerView={1} // Number of slides visible at once
-        loop={true} // Loop through slides
-        pagination={{ clickable: true }} // Pagination
-        navigation // Navigation arrows
+        spaceBetween={150} 
+        // slidesPerView={'auto'}
+        slidesPerView={4}
+        loop={true}
+        grabCursor={true} 
+        centeredSlides={true} 
+        pagination={{ clickable: true }} 
+        style={{ overflow: 'hidden' }}
       >
-        <SwiperSlide>
-          <div className="slider-item">
-            <div className="image-container">
-              <img src="https://via.placeholder.com/300" alt="Image 1" />
-            </div>
-            <div className="text-container">
-              <p>Item 1</p>
-              <div className="icon-container">
-                <div className="circle-icon">
-                  <FaBeer />
+        {blogs.map((blog) => (
+          <SwiperSlide key={blog.id}>
+            <div
+              // style={{
+              //   minWidth: '300px',
+              //   padding: '20px',
+              //   backgroundColor: 'black',
+              //   borderRadius: '8px',
+              //   boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
+              //   position: 'relative',
+              // }}
+              className='slider-div'
+            >
+              <img className='blogs-images'src={images}/>
+              <div className='below-content'>
+                <div className='text-section'>
+              <h3>{blog.title}</h3>
+              <p>{blog.description}</p>
                 </div>
+              <div>
+              <div className='arrowIcons'>
+                <MdKeyboardArrowRight />
+              </div>
+              </div>
               </div>
             </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="slider-item">
-            <div className="image-container">
-              <img src="https://via.placeholder.com/300" alt="Image 2" />
-            </div>
-            <div className="text-container">
-              <p>Item 2</p>
-              <div className="icon-container">
-                <div className="circle-icon">
-                  <FaBeer />
-                </div>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        {/* Add more slides as needed */}
+          </SwiperSlide>
+        ))}
       </Swiper>
+      <Button
+                style={{
+                  border: '1px solid #007BFF',
+                  padding: '10px 15px',
+                  borderRadius: '5px',
+                  cursor: 'pointer',
+                  transition: 'all 0.3s ease',
+                }}
+              >
+                Read Full Article
+              </Button>
     </section>
   );
 };
 
-export default SwiperSlider;
+export default Blogs;
